@@ -1,0 +1,83 @@
+body{
+	margin-left: 0px;
+	margin-top: 0px;
+	background: url("black.jpg");
+}
+
+#confirmation{
+	font-family: "Verdana", Times, serif;
+	color: white;
+	font-weight:bold;
+	font-size: 19px;
+	width:100%;
+	text-align: center;
+	position:fixed;
+	text-shadow:1px 1px 0px black;
+}
+
+.button{
+ 	position:fixed;
+	transform:translate(-50%,0);
+	width:20%;
+	height:7%;
+	font-weight:bold;
+	font-size: 19px;
+	border-radius: 8px;
+}
+
+#noButton{
+	left:37%;
+	bottom:85%;
+	background-color: #E74C3C
+}
+
+#yesButton{
+	left:63%;
+	bottom:85%;
+	background-color: #27AE60
+}
+
+#helpBox{
+   display:none;
+   width:70%;
+   position: fixed;
+   bottom: 75%;
+   left: 50%;
+   transform:translate(-50%,0);
+   margin-bottom:0.5%;
+}
+
+#helpButton{
+	display: none;
+   bottom: 67.5%;
+   left: 50%;
+   background-color: #1F618D;
+   color: white;
+}
+
+#textBox{
+	position:fixed;
+	width:70%;
+	bottom:5.5%;
+	margin-left:3%;
+
+}
+#chatButton{
+	position:fixed;
+	bottom:5.5%;
+	left:75%;
+	width: 20%;
+	height:5%;
+
+	background-color: #1E8449
+}
+
+#trainArea{
+	height:35%;
+	background-color: #cccccc;
+	width:100%;
+	position: fixed;
+	display:none;
+	z-index:2;
+	border: 1px solid black;
+}
